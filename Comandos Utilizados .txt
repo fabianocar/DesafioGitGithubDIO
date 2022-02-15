@@ -24,3 +24,22 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   Comandos Utilizados .txt
 
+Comando 5:
+$ git commit -m "Clone, status, commit, push"
+[master 345a480] Clone, status, commit, push
+ 1 file changed, 26 insertions(+)
+ create mode 100644 Comandos Utilizados .txt
+
+Comando 6: 
+$ git push origin master
+Enter passphrase for key '/c/Users/slbia/.ssh/id_ed25519':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 588 bytes | 196.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:fabianocar/DesafioGitGithubDIO.git
+   b3f363b..345a480  master -> master
+
+
